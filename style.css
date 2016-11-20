@@ -10,10 +10,9 @@ body {
 .form {
 	position: relative;
 	background-color: white;
-	margin: 0 auto;
+	margin: 200px auto;
 	width: 503px;
 	height: 353px;
-	margin-top: 150px;
 	box-shadow: 0 0 25px #383535;
 }
 
@@ -48,6 +47,10 @@ input[type=submit] {
 
 input:focus {
 	outline: none;
+}
+
+input[type=submit]:hover {
+	background-color: forestgreen;
 }
 
 .form-footer {
